@@ -32,10 +32,10 @@ st.markdown("""
     .sub-title { font-size: 1.1rem; color: #4B5563; margin-bottom: 2rem; }
     .metric-card { background-color: #F3F4F6; padding: 1rem; border-radius: 0.5rem; border-left: 5px solid #3B82F6; }
     </style>
-""", unsafe_style_allowed=True)
+""", unsafe_allow_html=True)
 
-st.markdown('<div class="main-title">🗜️ Data Compression & Optimization Suite</div>', unsafe_style_allowed=True)
-st.markdown('<div class="sub-title">An interactive framework analyzing bandwidth reduction paradigms across text, multimedia, and application containers.</div>', unsafe_style_allowed=True)
+st.markdown('<div class="main-title">🗜️ Data Compression & Optimization Suite</div>', unsafe_allow_html=True)
+st.markdown('<div class="sub-title">An interactive framework analyzing bandwidth reduction paradigms across text, multimedia, and application containers.</div>', unsafe_allow_html=True)
 
 # Main UI Tabs
 tab1, tab2, tab3 = st.tabs(["🔤 Text (Huffman Coding)", "🖼️ Image (Quantization Passes)", "📄 PDF (Stream Deflation)"])
