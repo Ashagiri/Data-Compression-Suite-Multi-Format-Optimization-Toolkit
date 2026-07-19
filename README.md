@@ -1,6 +1,7 @@
 # Data Compression Suite: Multi-Format Optimization Toolkit
 
 An interactive web application demonstrating modern bandwidth-saving paradigms across diverse data modalities. This system implements a scratch-built lossless **Huffman Coding serialization engine** for textual bitstreams, an **adaptive quantization framework** for lossy matrix graphics, and an **application-layer Deflate routine** for object container streams.
+
 ---
 
 ## 🔬 Core Architectural Modules
